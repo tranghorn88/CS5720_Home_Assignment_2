@@ -4,7 +4,7 @@
 **Student ID:** 700683454
 ## Question 1: Convolution Operations with Different Parameters
 ### Task: Implement Convolution with Different Stride and Padding
-**Description:**
+**Description/Explanation:**
 This script demonstrated how 2D convolution behaves with different strides and padding configurations using TensorFlow. The script used NumPy and Tensor Flow/keras to perform convolution on a 5x5 input matrix using a 3x3 kernel. The resulting features are printed for four cases:
 - Strides 1 with VALID padding
 - Stride 1 with SAME padding
@@ -13,19 +13,19 @@ This script demonstrated how 2D convolution behaves with different strides and p
 
 ## Question 2: CNN Feature Extraction with Filters and Pooling
 ### Task 1: Implement Edge Detection Using Convolution
-**Description:**
+**Description/Explanation:**
 This script applies Sobel X and Sobel Y filters to a grayscale image using OpenCV(cv2) to detect edges on an image in the x-direction and y-direction. It reads an image from a URL, applied the filters, and display the original and filtered results using Matplotlib. 
 
 **Image Source:**
 https://raw.githubusercontent.com/scikit-image/scikit-image/main/skimage/data/camera.png
 
 ### Task 2: Implement Max Pooling and Average Pooling
-**Description:**
+**Description/Explanation:**
 This script illustrates max pooling and average pooling on a randomly generated 4x4 image matrix using TensorFlow/Keras. It outputs the original matrix, max pooled matrix, and average pooled matrix, which demonstrate how pooling reduces spatial dimensions.
 
 ## Question 3: Data Processing - Standardization vs. Normalization
 ### Task: Explore standardization and normalization techniques on a dataset and analyze their impact
-**Description:**
+**Description/Explanation:**
 This code compared the impact of Min-Max Normalization and Z-score standardization on the Iris dataset, printed out the transformed datasets, and compared them by visualizing distributions using histograms. It then trains Logistic Regression models on raw data and scaled data, and then compares their classification accuracy. The output of the script includes transformed datasets, histogram visualization of distributions, and accuracy across preprocessing methods.
 
 **Questions to Answer:**
