@@ -23,6 +23,7 @@ This script illustrate max pooling and average pooling on a randomly generatated
 ### Task: Explore standardization and normalization techniques on a dataset and analyze their impact
 **Description:**
 This code compares the impact of Min-Max Normalization and Z-score standardization on the Iris dataset, printed out the transformed datasets, compare them by visualizing distributions using histograms. It then trains Logistic Regression models on raw data and scaled data, then compares their classification accuracy. The output of the script include transformed datasets, histogram visualization of distributions, and accuracy across preprocessing methods.
+
 **Questions to Answer:**
 -Standardization (Z-score Normalization): Rescales data to have zero mean (0) and unit variance (1). It works well when data has outliersm as it preserves relative variations and it is useful when data follow a Gaussian (normal) distribution. Therefore, it is used in statistical models such as PCA, SVM, Logistic Regression, ECG Analysis where data is expected to normally distributed.
 -Normalization (Min-Max Scaling): Rescales data to a fixed range [0, 1]
