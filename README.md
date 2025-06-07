@@ -5,10 +5,10 @@
 ### Task: Implement Convolution with Different Stride and Padding
 **Description:**
 This script demonstrates how 2D convolution behaves with different stride and padding configurations using TensorFlow. The script use NumPy and Tensor Flow/keras to peform convolution on a 5x5 input matrix using a 3x3 kernel. The resulting features are printed for four cases:
--Strides 1 with VALID padding
--Stride 1 with SAME padding
--Stride 2 with VALID padding
--Stride 2 with SAME padding 
+- Strides 1 with VALID padding
+- Stride 1 with SAME padding
+- Stride 2 with VALID padding
+- Stride 2 with SAME padding 
 
 ## Question 2: CNN Feature Extraction with Filters and Pooling
 ### Task 1: Implement Edge Detection Using Convolution
@@ -25,6 +25,6 @@ This script illustrate max pooling and average pooling on a randomly generatated
 This code compares the impact of Min-Max Normalization and Z-score standardization on the Iris dataset, printed out the transformed datasets, compare them by visualizing distributions using histograms. It then trains Logistic Regression models on raw data and scaled data, then compares their classification accuracy. The output of the script include transformed datasets, histogram visualization of distributions, and accuracy across preprocessing methods.
 
 **Questions to Answer:**
--Standardization (Z-score Normalization): Rescales data to have zero mean (0) and unit variance (1). It works well when data has outliersm as it preserves relative variations and it is useful when data follow a Gaussian (normal) distribution. Therefore, it is used in statistical models such as PCA, SVM, Logistic Regression, ECG Analysis where data is expected to normally distributed.
--Normalization (Min-Max Scaling): Rescales data to a fixed range [0, 1]
+- Standardization (Z-score Normalization): Rescales data to have zero mean (0) and unit variance (1). It works well when data has outliersm as it preserves relative variations and it is useful when data follow a Gaussian (normal) distribution. It is used in statistical models such as PCA, SVM, Logistic Regression, ECG Analysis where data is expected to normally distributed.
+- Normalization (Min-Max Scaling): Rescales data to a fixed range [0, 1]. It is sensitive to outliers which means if one value is extremely high, it skews al data).  It also loses variance information, making extreme values less distinguishable. It is used in deep learning models such as CNNs, RNNs, LSTMs, ECG classification where inputs mist be in a fixed range.
 
