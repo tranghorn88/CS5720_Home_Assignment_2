@@ -1,5 +1,6 @@
 # CS5720_Home_Assignment_2
 **Student Name:** Trang Horn
+
 **Student ID:** 700683454
 ## Question 1: Convolution Operations with Different Parameters
 ### Task: Implement Convolution with Different Stride and Padding
